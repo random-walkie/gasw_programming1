@@ -1,5 +1,5 @@
 # Programming 1 - Java Fundamentals
-Programming 1 module focusing on Java fundamentals and object-oriented design using simple geometric shapes.
+Programming 1 module focusing on Java fundamentals and object-oriented design.
 
 ## Week 2 Objectives
 - Set up Java project structure (src/out), compile and run.
