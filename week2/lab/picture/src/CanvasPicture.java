@@ -5,7 +5,7 @@ import java.util.*;
 
 /**
  * CanvasPicture is a class to allow for simple graphical drawing on a canvas.
- * This is a modification of the general purpose CanvasPicture, specially made for
+ * This is a modification of the general purpose Canvas, specially made for
  * the BlueJ "shapes" example. 
  *
  * @author: Bruce Quig
