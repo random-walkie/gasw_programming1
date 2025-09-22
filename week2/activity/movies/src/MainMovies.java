@@ -20,5 +20,13 @@ public class MainMovies {
         // Resume movie2
         movie2.resume();
         System.out.println(movie2);
+
+        // Create PlayList object
+        PlayList playList = new PlayList();
+        // Add movie1 to playList
+        playList.addToPlayList(movie1);
+        // Add movie2 to playList and show list
+        playList.addToPlayList(movie2);
+        playList.showList();
     }
 }
