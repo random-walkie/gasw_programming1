@@ -9,8 +9,8 @@ Programming 1 module focusing on Java fundamentals and object-oriented design.
 - Write a main class to instantiate objects and call methods.
 
 ## Week 3 Objectives
-- Create a VendingMachine class with fields for stock, prices, and balance
-- Implement parameterized and default constructors
+- Create a `VendingMachine` class with fields for stock, prices, and balance
+- Implement parameterised and default constructors
 - Instantiate objects and test initialisation
 - Access and modify field values
 - Identify encapsulation problems with public fields
