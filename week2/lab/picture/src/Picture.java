@@ -14,8 +14,10 @@ public class Picture
 {
     private SquarePicture wall;
     private SquarePicture window;
+    private SquarePicture door;
     private TrianglePicture roof;
     private CirclePicture sun;
+
 
     /**
      * Constructor for objects of class Picture
@@ -41,6 +43,13 @@ public class Picture
         window.moveVertical(100);
         window.makeVisible();
 
+        // Task 3.1-3: add door to house.
+        door = new SquarePicture();
+        door.changeColor("black");
+        door.moveHorizontal(50);
+        door.moveVertical(150);
+        door.makeVisible();
+
         roof = new TrianglePicture();
         roof.changeSize(50, 140);
         roof.moveHorizontal(60);
@@ -48,7 +57,7 @@ public class Picture
         roof.makeVisible();
 
         sun = new CirclePicture();
-        sun.changeColor("yellow");
+        sun.changeColor("blue");
         sun.moveHorizontal(180);
         sun.moveVertical(-10);
         sun.changeSize(60);
@@ -81,6 +90,10 @@ public class Picture
             roof.changeColor("green");
             sun.changeColor("yellow");
         }
+    }
+
+    public void setSun() {
+        sun.slowMoveVertical(500);
     }
 
 }

@@ -5,9 +5,10 @@ public class MainPicture {
         // Task 2.1-3: Create a picture and draw it.
 	    Picture picture1 = new Picture();
         picture1.draw();
+        picture1.setSun();
         // Task 2.4-5: Change the colour of the picture.
-        pause();
-        picture1.setBlackAndWhite();
+        // pause();
+        // picture1.setBlackAndWhite();
 
     }
 
